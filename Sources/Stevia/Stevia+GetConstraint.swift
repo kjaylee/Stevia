@@ -15,14 +15,14 @@ public extension UIView {
     
     Example Usage for changing left margin of a label :
     ```
-    label.leftConstraint?.constant = 10
+    label.svLeftConstraint?.constant = 10
      
     // Animate if needed
     UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
     ```
     - Returns: The left NSLayoutConstraint if found.
      */
-    var leftConstraint: NSLayoutConstraint? {
+    var svLeftConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .left)
     }
 
@@ -31,14 +31,14 @@ public extension UIView {
     Example Usage for changing right margin of a label :
      
     ```
-    label.rightConstraint?.constant = 10
+    label.svRightConstraint?.constant = 10
      
     // Animate if needed
     UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
     ```
     - Returns: The right NSLayoutConstraint if found.
      */
-    var rightConstraint: NSLayoutConstraint? {
+    var svRightConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .right)
     }
         
@@ -47,14 +47,14 @@ public extension UIView {
     Example Usage for changing top margin of a label :
      
     ```
-    label.topConstraint?.constant = 10
+    label.svTopConstraint?.constant = 10
      
     // Animate if needed
     UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
     ```
     - Returns: The top NSLayoutConstraint if found.
      */
-    var topConstraint: NSLayoutConstraint? {
+    var svTopConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .top)
     }
     
@@ -63,14 +63,14 @@ public extension UIView {
     Example Usage for changing bottom margin of a label :
      
     ```
-    label.bottomConstraint?.constant = 10
+    label.svBottomConstraint?.constant = 10
     
     // Animate if needed
     UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
     ```
      - Returns: The bottom NSLayoutConstraint if found.
      */
-    var bottomConstraint: NSLayoutConstraint? {
+    var svBottomConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .bottom)
     }
     
@@ -79,14 +79,14 @@ public extension UIView {
     Example Usage for changing height property of a label :
      
     ```
-    label.heightConstraint?.constant = 10
+    label.svHeightConstraint?.constant = 10
      
     // Animate if needed
     UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
     ```
     - Returns: The height NSLayoutConstraint if found.
     */
-    var heightConstraint: NSLayoutConstraint? {
+    var svHeightConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .height)
     }
     
@@ -95,14 +95,14 @@ public extension UIView {
      Example Usage for changing width property of a label :
      
      ```
-     label.widthConstraint?.constant = 10
+     label.svWidthConstraint?.constant = 10
      
      // Animate if needed
      UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
      ```
      - Returns: The width NSLayoutConstraint if found.
      */
-    var widthConstraint: NSLayoutConstraint? {
+    var svWidthConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .width)
     }
     
@@ -111,14 +111,14 @@ public extension UIView {
      Example Usage for changing width property of a label :
      
      ```
-     label.trailingConstraint?.constant = 10
+     label.svTrailingConstraint?.constant = 10
      
      // Animate if needed
      UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
      ```
      - Returns: The trailing NSLayoutConstraint if found.
      */
-    var trailingConstraint: NSLayoutConstraint? {
+    var svTrailingConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .trailing)
     }
     
@@ -127,14 +127,14 @@ public extension UIView {
      Example Usage for changing width property of a label :
      
      ```
-     label.leadingConstraint?.constant = 10
+     label.svLeadingConstraint?.constant = 10
      
      // Animate if needed
      UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
      ```
      - Returns: The leading NSLayoutConstraint if found.
      */
-    var leadingConstraint: NSLayoutConstraint? {
+    var svLeadingConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .leading)
     }
     
@@ -143,14 +143,14 @@ public extension UIView {
      Example Usage for changing width property of a label :
      
      ```
-     label.centerXConstraint?.constant = 10
+     label.svCenterXConstraint?.constant = 10
      
      // Animate if needed
      UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
      ```
      - Returns: The width NSLayoutConstraint if found.
      */
-    var centerXConstraint: NSLayoutConstraint? {
+    var svCenterXConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .centerX)
     }
     
@@ -159,14 +159,14 @@ public extension UIView {
      Example Usage for changing width property of a label :
      
      ```
-     label.centerYConstraint?.constant = 10
+     label.svCenterYConstraint?.constant = 10
      
      // Animate if needed
      UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
      ```
      - Returns: The width NSLayoutConstraint if found.
      */
-    var centerYConstraint: NSLayoutConstraint? {
+    var svCenterYConstraint: NSLayoutConstraint? {
         return constraintForView(self, attribute: .centerY)
     }
 }
